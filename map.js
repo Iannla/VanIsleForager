@@ -1,5 +1,5 @@
 // Reference to the Firebase Realtime Database.
-var firebase = new Firebase("https://project-6112226794493426208.firebaseio.com/");
+var firebase = new Firebase("https://project-6896618617155316776.firebaseio.com/");
 
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
