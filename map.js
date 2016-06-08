@@ -1,10 +1,26 @@
 // Reference to the Firebase Realtime Database.
 var firebase = new Firebase("https://project-6896618617155316776.firebaseio.com/");
 
+  // Set the configuration for your app
+  // TODO: Replace with your project's config object
+  var config = {
+            apiKey: "AIzaSyB7RJBuDs5KU-iK-wSssDLU0J36edRXHdQ",
+            authDomain: "project-6896618617155316776.firebaseapp.com",
+            databaseURL: "https://project-6896618617155316776.firebaseio.com",
+            storageBucket: "project-6896618617155316776.appspot.com",
+          };
+          firebase.initializeApp(config);
+
+  // Get a reference to the database service
+  var database = firebase.database();
+
+
+
+
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 0, lng: 0},
-    zoom: 3
+    center: {lat: 48.455, lng: -123.375},
+    zoom: 12
   });
 
   // Add marker on user click
