@@ -1,4 +1,32 @@
+h1 {
+	font-size: 1.5em;
+	font-family: "Geneva";
+}
+
+h2 {
+	font-family: "Geneva";
+	font-size: 1.25em;
+}
+
 .title {
 	align: center;
 }
 
+.mapInfo {
+
+	padding: 50px;
+	font-size: 1.25em;
+	background-color: #3cd27b;
+	
+}
+
+.mapinteract{
+ 
+}
+
+.rules {
+	background-color: #bdc3c7;
+	padding: 50px;
+	font-size: 1.25em;
+	color: black;
+}

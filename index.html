@@ -6,40 +6,60 @@
       #map { height: 75%; }
     </style>
     <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
-
-       
-       
-
     <div id="map"></div>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlwItzghwaUNhzg0VpZR4fO1-_7dgC5Fo
         &libraries=visualization&callback=initMap">
     </script>
     <script src="map.js"> </script>
-<section>
-    <h1> Van Isle Forager Map </h1>
 
-      <p>Add your foraging finds to the map above. Forage for food around your location. </p>
+<section class="mapInfo">
+    
+        <h1> Van Isle Forager Map </h1>
 
-        <form action="action_page.php">
-              <select name="cars">
-                <option value="Apple">Apple</option>
-                <option value="Blackberry">Blackberry</option>
-                <option value="Fennel">Fennel</option>
-                <option value="Plum">Plum</option>
-                <option value="Pear">Pear</option>
-                <option value="Rose Hips">Rose Hips</option>
-                <option value="Rosemary">Rosemary</option>
-                <option value="Salal">Salal</option>
-                <option value="Strawberry">Strawberry</option>
-              </select>
-              <br><br>
-              <input type="submit">
-        </form>
+          <p>Add your foraging finds to the map above. Forage for food around your location. Be sure to check the Rules for Foraging in British Columbia linked below. Respect the land and your neighbors. <strong>If you are providing the locations to fruit on your own land, please specify the rules for entry in your marker description.</strong> </p>
+
+            <form action="action_page.php">
+                  <select name="cars">
+                    <option value="Apple">Apple</option>
+                    <option value="Blackberry">Blackberry</option>
+                    <option value="Fennel">Fennel</option>
+                    <option value="Plum">Plum</option>
+                    <option value="Pear">Pear</option>
+                    <option value="Rose Hips">Rose Hips</option>
+                    <option value="Rosemary">Rosemary</option>
+                    <option value="Salal">Salal</option>
+                    <option value="Strawberry">Strawberry</option>
+                  </select>
+                  <br><br>
+                  <input type="submit">
+            </form>
+
 </section>
 
+<div class="rules">
+        <h2>Rules for Foraging in British Columbia:</h2>
 
+          <p>Part of our vision is to help facilitate awareness about the ethics of foraging and food sovereignty. For more information on the rules and etiquette for foraging in BC Parks please visit the following blog: <a href="http://arcadianabe.blogspot.ca/2012/03/rules-for-foraging-on-public-land.html" target="_blank"><strong>Wild Harvests.</strong></a>
+          Help us re-define and re-imagine how we can forage in the complex and layered urban space, by joining the conversation. </p>
+        
+        <h2>Why Forage?</h2>
+          <p>
+          <ol>
+          <li>Save yourself some money! 1 kg of store apples $3.70. 1 kg foraged apples FREE. </li>
+          <li>Holistic Health: pick an apple, calm your mind; eat an apple, nourish your body; connect with the tree that feeds you, enrich your spirit; plant the seed, spread the seed, let life grow.</li>
+          <li>Better for the environment! Reduces the pollution that results from transporting food from other countries</li>
+          <li>Taste the local flavours of your neighbourhood. It may not the brightest apple but it’s bursting with flavour.</li>
+          <li>By providing food for yourself, you become more self-sufficient. A measure of self-sufficiency is needed for a resilient food system into today’s globalized context. What would you do if grocery stores stopped providing produce?</li>
+          <li>It is fun and feels darn good. Get out and make friends within the community and become a steward for your neighbourhood. </li>
+          </ol>
+          </p>
+    <div>
   </body>
+  <footer class="main-footer">
+    <span>&copy;2016 Van Isle Forager</span>
+  </footer>
 </html>
