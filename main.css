@@ -16,7 +16,7 @@ h2 {
 
 	padding: 50px;
 	font-size: 1.25em;
-	background-color: #3cd27b;
+	background-color: #1abc9c;
 	
 }
 
@@ -29,4 +29,33 @@ h2 {
 	padding: 50px;
 	font-size: 1.25em;
 	color: black;
+}
+
+p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+li {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+
+footer {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
 }
